@@ -12,6 +12,7 @@ alias spice='wine ~/LTSpice/XVIIx64.exe & exit'
 PS1='[\t \W] $ '
 
 export PATH="${PATH}:${HOME}/.local/bin/"
+export PATH="${PATH}:${HOME}/.scripts/"
 export XDG_CONFIG_HOME="$HOME/.config"
 
 (cat ~/.cache/wal/sequences &)
